@@ -1,0 +1,17 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "nightwatch --format @cucumber/pretty-formatter --format-options '{\"colorsEnabled\": true}' --format-options '{\"theme\": {\"feature keyword\":[\"bold\",\"blue\"],\"feature name\":[\"blue\",\"underline\"],\"feature description\":[\"blueBright\"],\"scenario keyword\":[\"bold\",\"magenta\"],\"scenario name\":[\"magenta\",\"underline\"],\"step keyword\":[\"bold\",\"green\"],\"step text\":[\"greenBright\",\"italic\"]}}' --format json:./tests/reports/cucumber-report-$( date '+%Y-%m-%d_%H-%M' ).json --format html:./tests/reports/cucumber-report-$( date '+%Y-%m-%d_%H-%M' ).html"
+  },
+  
+  "homepage": "https://github.com/webship/webship-js",
+  "dependencies": {
+    "webship-js": "~1.0.0"
+  }
+}
