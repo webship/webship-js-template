@@ -12,7 +12,6 @@ module.exports = {
       'json:tests/reports/cucumber_report.json',
     ],
     formatOptions: {
-      colorsEnabled: true,
       theme: {
         'feature keyword': ['bold', 'blue'],
         'feature name': ['blue', 'underline'],
