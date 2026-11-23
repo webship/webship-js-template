@@ -1,6 +1,9 @@
 {
   "name": "project-name",
   "version": "2.0.0",
+  "engines": {
+    "node": ">=24"
+  },
   "description": "",
   "main": "index.js",
   "author": "",
